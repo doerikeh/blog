@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<section style="background: url({% static 'img/About.jpg' %}); background-size: cover; background-position: center center" class="hero">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-7">
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="intro">
+    <div class="container">
+
+        <div class="row">
+        <div class="col-lg-8">
+            <h2>About Us</h2><br/>
+            <p class="text-big">Place a nice <strong>introduction</strong> here <strong>to catch reader's attention</strong>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi.</p>
+        </div><br/>
+        
+        <img class="col-md-3" src="{% static 'img/data.png' %}">
+        </div>
+        <div class="col-lg-8"><br/><br/>
+        <h4>Catatan</h4>
+            <p class="text-big">Place a nice <strong>introduction</strong> here <strong>to catch reader's attention</strong>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="ai ci-c-vj1" style="background-color: white; transform: scaleY(1);">
+        <div>
+            <img class="center" src="{% static 'img/team.jpg' %}" style="opacity: 1; transform: translateY(1); height: 400px; width: 800px;">
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
